@@ -16,7 +16,7 @@ namespace AppConsultaCEP
             InitializeComponent();
         }
 
-        private async btn_CEP_Clicked(object sender, EventArgs e)
+        private void btn_CEP_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ConsultaCEP());
         }

@@ -8,8 +8,15 @@
         <StackLayout>
             <Grid RowDefinitions="Auto" ColumnDefinitions="3*, *">
                 <Entry x:Name="txt_CEP" Placeholder="Digite o CEP..." Grid.Row="0" Grid.Column="0" Keyboard="Numeric" />
-                <Button x:Name="btn_Buscar" Text="Buscar" Grid.Row="0" Grid.Column="1" />
+                <Button x:Name="btn_Buscar" Text="Buscar" Grid.Row="0" Grid.Column="1" Clicked="btn_Buscar_Clicked" />
             </Grid>
+            <Label Text="CEP Buscado: " x:Name="lbl_CEP" />
+            <Label Text="Tipo de Logradouro: " x:Name="lbl_tipo_logradouro" />
+            <Label Text="Logradouro: " x:Name="lbl_logradouro" />
+            <Label Text="Bairro: " x:Name="lbl_bairro" />
+            <Label Text="Cidade: " x:Name="lbl_cidade" />
+            <Label Text="ID Cidade: " x:Name="lbl_id_cidade" />
+            <Label Text="ID Cidade IBGE: " x:Name="lbl_id_cidade_ibge" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

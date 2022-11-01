@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using AppConsultaCEP.Model;
 
-namespace AppConselheiro.Services
+namespace AppConsultaCEP.Services
 {
     internal class DataService
     {
