@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppConsultaCEP.View.ConsultaCEP"
+             Title="Consultar CEP">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowDefinitions="Auto" ColumnDefinitions="3*, *">
+                <Entry x:Name="txt_CEP" Placeholder="Digite o CEP..." Grid.Row="0" Grid.Column="0" Keyboard="Numeric" />
+                <Button x:Name="btn_Buscar" Text="Buscar" Grid.Row="0" Grid.Column="1" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

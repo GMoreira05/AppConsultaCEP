@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppConsultaCEP.MainPage"
+             Title="ConsultaCEP">
+
+    <StackLayout>
+        <Button Text="Consultar CEP" x:Name="btn_CEP" Clicked="btn_CEP_Clicked" />
+        <Button Text="Consultar Logradouro" x:Name="btn_Logradouro" />
+        <Button Text="Consultar Cidades da UF" x:Name="btn_UF" />
+        <Button Text="Consultar Bairros da Cidade" x:Name="btn_Cidade" />
+    </StackLayout>
+
+</ContentPage>
