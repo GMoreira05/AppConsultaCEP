@@ -20,5 +20,10 @@ namespace AppConsultaCEP
         {
             Navigation.PushAsync(new ConsultaCEP());
         }
+
+        private void btn_Logradouro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ConsultaLogradouro());
+        }
     }
 }

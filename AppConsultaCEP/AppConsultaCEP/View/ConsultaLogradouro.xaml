@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppConsultaCEP.View.ConsultaLogradouro"
+             Title="Consultar Logradouro">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowDefinitions="Auto" ColumnDefinitions="3*, 1.5*">
+                <Entry x:Name="txt_Logradouro" Placeholder="Digite o Logradouro..." Grid.Row="0" Grid.Column="0" Keyboard="Text" />
+                <Button x:Name="btn_Buscar" Text="Buscar" Grid.Row="0" Grid.Column="1" Clicked="btn_Buscar_Clicked" />
+            </Grid>
+            <Label Text="Logradouro Buscado: " x:Name="lbl_Logradouro" />
+            <Label Text="ID do Logradouro: " x:Name="lbl_id_logradouro" />
+            <Label Text="Tipo: " x:Name="lbl_tipo" />
+            <Label Text="Descrição: " x:Name="lbl_descricao" />
+            <Label Text="Bairro: " x:Name="lbl_descricao_bairro" />
+            <Label Text="Cidade: " x:Name="lbl_descricao_cidade" />
+            <Label Text="CEP: " x:Name="lbl_CEP" />
+            <Label Text="Código Cidade IBGE" x:Name="lbl_codigo_cidade_ibge" />
+            <Label Text="ID Cidade: " x:Name="lbl_id_cidade" />
+            <Label Text="Estado: " x:Name="lbl_uf" />
+            <Label Text="Complemento: " x:Name="lbl_complemento" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
